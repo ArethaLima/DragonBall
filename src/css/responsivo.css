@@ -1,0 +1,84 @@
+@media screen and (max-width: 640px){
+
+    .container {
+        display: block;
+        justify-content: center;
+        margin: 0;
+      }
+
+      .container_titulo{
+        padding-top: 0.5em;
+      }
+
+     .container_informacoes{
+        width: auto;
+        padding: 0  2em    
+     } 
+    .container_imagem{
+       display: block;
+       padding-left: 40%;
+       width: 25%;  
+    }
+
+     /* --------  */
+
+     .apresentacao{
+        display:block;
+        justify-content: center;
+     }
+
+     .apresentacao_titulo{
+        text-align: center;
+     }
+
+     .apresentacao_imagem_enredo{
+        display: none;
+     }
+
+     /* ---------------- */
+
+     .apresentacao_series{
+        display:block;
+        justify-content: space-between;
+     }
+
+     .apresentacao_series_titulo{
+        text-align:center;
+     }
+
+     .video{
+        width: 100%;
+     }
+
+     /* ------------------ */
+    .rodape{
+        margin: 0;
+        bottom: 0;    
+    }
+}
+
+@media screen and (max-width: 450px){
+    .cabecalho{
+        margin: 1em
+    }
+
+    .menu{
+        gap: 1em;
+        padding-right: 1em;
+    }
+
+    .slider{
+        width: 90%;
+        margin: 0
+    }
+  
+    .personagens_titulo{
+        text-align: center;
+    }
+
+    .rodape{
+        margin: 0;
+        bottom: 0;
+    }
+} 
+
